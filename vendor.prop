@@ -245,7 +245,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
 
-ro.telephony.default_network=33,33
+ro.telephony.default_network=27,27
 
 # Radio Perf
 # RIL Battery Saving off
