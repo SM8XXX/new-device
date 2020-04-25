@@ -10,6 +10,9 @@ debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 persist.vendor.color.matrix=2
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # DPM
 persist.vendor.dpm.feature=1
 
