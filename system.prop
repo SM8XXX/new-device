@@ -12,6 +12,7 @@ persist.vendor.color.matrix=2
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # DPM
 persist.vendor.dpm.feature=1
