@@ -45,6 +45,10 @@ ro.vendor.oem.imei                                                              
 ro.vendor.oem.psno                                                                                  u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.sno                                                                                   u:object_r:vendor_deviceid_prop:s0
 
+# Serial Number
+ro.vendor.oem.sno                               u:object_r:vendor_sno_prop:s0
+ro.vendor.oem.psno                              u:object_r:vendor_sno_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay                                                                              u:object_r:vendor_tee_listener_prop:s0
 
