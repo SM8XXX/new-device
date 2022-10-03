@@ -7,6 +7,9 @@ audio_hal.in_period_size                                                        
 persist.vendor.bt.                                                                                  u:object_r:vendor_bluetooth_prop:s0
 persist.vendor.btstack.                                                                             u:object_r:vendor_bluetooth_prop:s0
 
+# Bluetooth
+persist.vendor.bt.                              u:object_r:vendor_bluetooth_prop:s0
+
 # Camera
 camera.                                                                                             u:object_r:vendor_camera_prop:s0
 persist.camera.                                                                                     u:object_r:vendor_camera_prop:s0
