@@ -503,14 +503,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.motor</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMotor</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>android.hardware.media.c2</name>
         <version>1.0-2</version>
         <interface>
@@ -527,5 +519,4 @@
             <instance>vibratorfeature</instance>
         </interface>
     </hal>
-
 </compatibility-matrix>
