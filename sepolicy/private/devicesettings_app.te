@@ -12,7 +12,6 @@ allow devicesettings_app mediaextractor_service:service_manager find;
 allow devicesettings_app mediametrics_service:service_manager find;
 allow devicesettings_app mediaserver_service:service_manager find;
 
-# Allow reading and writing shared prefs
 allow devicesettings_app system_app_data_file:dir create_dir_perms;
 allow devicesettings_app system_app_data_file:{ file lnk_file } create_file_perms;
 
