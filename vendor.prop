@@ -235,6 +235,10 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
 
+# Radio Perf
+# RIL Battery Saving off
+persist.vendor.radio.add_power_save=0
+
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
