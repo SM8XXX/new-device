@@ -186,6 +186,9 @@ on boot
     chown system system /sys/class/backlight/panel0-backlight/brightness_clone
     chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
 
+    # default country code
+    setprop ro.boot.wificountrycode 00
+
     write /sys/block/sda/queue/wbt_lat_usec 75000
 
     chown root system /sys/module/migt/parameters/add_lclus_affinity_uidlist
