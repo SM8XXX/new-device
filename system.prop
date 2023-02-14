@@ -1,6 +1,10 @@
 # Camera
 camera.disable_zsl_mode=true
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+ro.sys.fw.dex2oat_thread_count=8
+
 # Display
 debug.force_no_blanking=true
 
