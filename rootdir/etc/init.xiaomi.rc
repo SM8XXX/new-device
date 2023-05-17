@@ -98,3 +98,11 @@ service vendor.btmac-sh /vendor/bin/init.mi.btmac.sh
 # Radio
 on early-init
     setprop ro.vendor.radio.midevice ${ro.product.vendor.device}
+
+# Ril
+service vendor.imsrcsservice /vendor/bin/imsrcsd
+    class main
+    user radio
+    group radio vendor_qti_diag log inet wakelock
+    disabled
+
