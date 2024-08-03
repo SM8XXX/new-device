@@ -703,6 +703,9 @@ vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
+# RIL - from salami OOS 11.C.51
+vendor/lib64/libqcrilNrSmsModule.so|eec750187d50e0c6df179d10bd656ee026259f86
+
 # SECCOMP policy
 vendor/etc/seccomp_policy/mediacodec.policy
 
